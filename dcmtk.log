@@ -1,0 +1,53 @@
+2016-12-12 13:59:50.733  INFO: Requesting Association
+2016-12-12 13:59:50.877  INFO: Association Accepted (Max Send PDV: 32756)
+2016-12-12 13:59:50.878  INFO: ===================== OUTGOING DIMSE MESSAGE ====================
+2016-12-12 13:59:50.878  INFO: Message Type                  : C-FIND RQ
+2016-12-12 13:59:50.878  INFO: Presentation Context ID       : 1
+2016-12-12 13:59:50.878  INFO: Message ID                    : 1
+2016-12-12 13:59:50.878  INFO: Affected SOP Class UID        : FINDStudyRootQueryRetrieveInformationModel
+2016-12-12 13:59:50.878  INFO: Data Set                      : present
+2016-12-12 13:59:50.878  INFO: Priority                      : low
+2016-12-12 13:59:50.878  INFO: ======================= END DIMSE MESSAGE =======================
+2016-12-12 13:59:50.878  INFO: Find SCU Request Identifiers:
+2016-12-12 13:59:50.878  INFO: 
+2016-12-12 13:59:50.878  INFO: # Dicom-Data-Set
+2016-12-12 13:59:50.878  INFO: # Used TransferSyntax: Unknown Transfer Syntax
+2016-12-12 13:59:50.878  INFO: (0008,0020) DA (no value available)                     #   0, 0 StudyDate
+2016-12-12 13:59:50.878  INFO: (0008,0050) SH (no value available)                     #   0, 0 AccessionNumber
+2016-12-12 13:59:50.878  INFO: (0008,0052) CS [PATIENT]                                #   8, 1 QueryRetrieveLevel
+2016-12-12 13:59:50.878  INFO: (0008,1030) LO (no value available)                     #   0, 0 StudyDescription
+2016-12-12 13:59:50.878  INFO: (0010,0010) PN [Paola Migliavada]                       #  16, 1 PatientName
+2016-12-12 13:59:50.878  INFO: (0020,000d) UI (no value available)                     #   0, 0 StudyInstanceUID
+2016-12-12 13:59:50.878  INFO: 
+2016-12-12 13:59:50.964  WARN: ---------------------------
+2016-12-12 13:59:50.964  WARN: Find Response: 1 (Pending)
+2016-12-12 13:59:50.964  WARN: 
+2016-12-12 13:59:50.964  WARN: # Dicom-Data-Set
+2016-12-12 13:59:50.964  WARN: # Used TransferSyntax: Little Endian Implicit
+2016-12-12 13:59:50.964  WARN: (0008,0020) DA [20161209]                               #   8, 1 StudyDate
+2016-12-12 13:59:50.964  WARN: (0008,0050) SH [8498902 ]                               #   8, 1 AccessionNumber
+2016-12-12 13:59:50.964  WARN: (0008,0052) CS [PATIENT ]                               #   8, 1 QueryRetrieveLevel
+2016-12-12 13:59:50.964  WARN: (0008,1030) LO [PESQUISA J.BECKER ]                     #  18, 1 StudyDescription
+2016-12-12 13:59:50.964  WARN: (0010,0010) PN [PAOLA MIGLIAVADA PEREIRA DIAS ]         #  30, 1 PatientName
+2016-12-12 13:59:50.964  WARN: (0020,000d) UI [1.2.40.1.13.2.13212948.9485.1480212800724.20811.2.0] #  52, 1 StudyInstanceUID
+2016-12-12 13:59:50.964  WARN: 
+2016-12-12 13:59:50.964  WARN: ---------------------------
+2016-12-12 13:59:50.964  WARN: Find Response: 2 (Pending)
+2016-12-12 13:59:50.965  WARN: 
+2016-12-12 13:59:50.965  WARN: # Dicom-Data-Set
+2016-12-12 13:59:50.965  WARN: # Used TransferSyntax: Little Endian Implicit
+2016-12-12 13:59:50.965  WARN: (0008,0020) DA [20161209]                               #   8, 1 StudyDate
+2016-12-12 13:59:50.965  WARN: (0008,0050) SH [8498882 ]                               #   8, 1 AccessionNumber
+2016-12-12 13:59:50.965  WARN: (0008,0052) CS [PATIENT ]                               #   8, 1 QueryRetrieveLevel
+2016-12-12 13:59:50.965  WARN: (0008,1030) LO [PK-111]                                 #   6, 1 StudyDescription
+2016-12-12 13:59:50.965  WARN: (0010,0010) PN [PAOLA MIGLIAVADA PEREIRA DIAS ]         #  30, 1 PatientName
+2016-12-12 13:59:50.965  WARN: (0020,000d) UI [1.2.40.1.13.2.13212948.9485.1480212800724.20812.2.0] #  52, 1 StudyInstanceUID
+2016-12-12 13:59:50.965  WARN: 
+2016-12-12 13:59:50.965  INFO: ===================== INCOMING DIMSE MESSAGE ====================
+2016-12-12 13:59:50.965  INFO: Message Type                  : C-FIND RSP
+2016-12-12 13:59:50.965  INFO: Message ID Being Responded To : 1
+2016-12-12 13:59:50.965  INFO: Affected SOP Class UID        : FINDStudyRootQueryRetrieveInformationModel
+2016-12-12 13:59:50.965  INFO: Data Set                      : none
+2016-12-12 13:59:50.965  INFO: DIMSE Status                  : 0x0000: Success
+2016-12-12 13:59:50.965  INFO: ======================= END DIMSE MESSAGE =======================
+2016-12-12 13:59:50.965  INFO: Releasing Association
